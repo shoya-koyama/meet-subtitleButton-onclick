@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Meet Auto Caption",
+  "version": "1.0",
+  "description": "Google Meetの字幕を自動でオンにします",
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
